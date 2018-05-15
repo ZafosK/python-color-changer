@@ -4,4 +4,3 @@ A small python program that searches for all .png images within a directory and 
 ## Examples </br>
 ![example1](ExamplesBefore/1.png) ![example1](ExamplesAfter/1.png)</br>
 ![example2](ExamplesBefore/checkbox-checked-selectionmode-dark@2.png) ![example2](ExamplesAfter/checkbox-checked-selectionmode-dark@2.png)</br>
-##![example3](ExamplesBefore/thumbnail.png) ![example3](ExamplesAfter/thumbnail.png)</br>

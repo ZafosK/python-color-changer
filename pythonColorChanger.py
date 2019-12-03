@@ -26,7 +26,7 @@ def changeColor(imageTitle) :
 
 imageFiles=[]#list of the directories of each file
 imageNames=[]#list of the names of each file
-for root, subdirs, files in os.walk('/home/garry/Desktop/yo/ExamplesAfter'):
+for root, subdirs, files in os.walk('/home/garry/Desktop/yo/ExamplesAfter'): #change this, to the directory within which you want to alter the images
     for file in files:
         if os.path.splitext(file)[1].lower() in ('.png'):
              #print os.path.join(root, file)

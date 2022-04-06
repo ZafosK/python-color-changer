@@ -36,7 +36,7 @@ for root, subdirs, files in os.walk('/home/garry/Desktop/yo/ExamplesAfter'): #ch
 for i in range(0,len(imageFiles)) :
     os.chdir(imageFiles[i])#change directory to the one of the file we are about to modify
     if imageNames[i][-1]=="g" :#necessary as non png files would often be listed,might not be enough in cases that I didn't encounter
-        print imageNames[i]
+        print (imageNames[i])
         try: #this try was necessary as the program would fail to change the color of some pixels
             changeColor(imageNames[i])
         except:
